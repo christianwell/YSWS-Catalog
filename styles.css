@@ -3692,6 +3692,9 @@ html {
 /* Jackpot card styling */
 .program-card.jackpot-card {
   background-color: #5F1212;
+  background-image: url('https://cdn.hackclub.com/019d0244-1c96-79a6-925f-254d6da371c3/banner_1.png');
+  background-size: cover;
+  background-position: 40% center;
   color: white;
   position: relative;
   overflow: hidden;
@@ -3707,12 +3710,23 @@ html {
   color: #FAD10B;
 }
 
-.jackpot-logo {
+.jackpot-logo-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background-color: #CC0000;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
   position: relative;
   z-index: 2;
-  max-width: 120px;
-  height: auto;
-  margin-bottom: 0.5rem;
+}
+
+.jackpot-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .program-card.slushies-card {
