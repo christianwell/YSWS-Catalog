@@ -383,7 +383,9 @@ function createProgramCard(program) {
     ` : '';
 
     const jackpotLogo = program.name === 'Jackpot' ? `
-        <img src="https://cdn.hackclub.com/019d01dd-6b56-748a-8386-8f77bad07d46/meow.png" alt="Jackpot Badge" class="jackpot-logo">
+        <div class="jackpot-logo-circle">
+            <img src="logos/jackpot.png" alt="Jackpot Logo" class="jackpot-logo">
+        </div>
     ` : '';
 
     
